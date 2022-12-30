@@ -855,11 +855,7 @@
     }
 
     .socials{
-        flex-direction: row;
-        position: absolute;
-        top: 4750px;
-        left:110px;
-        color: #fff;
+        display: none;
     }
 
     .socials p{
@@ -973,10 +969,3 @@
     }
 }
 
-@media (max-width:320px) {
-    .socials{
-        top: 4950px;
-        left: 70px;
-    }
-
-}
